@@ -1,0 +1,62 @@
+body {
+    background-image: url(/pexels-dom-j-310452.jpg);
+    background-size: 1650px;
+}
+
+::placeholder {
+    color: #fff !important;
+}
+
+.container {
+    max-width: 400px;
+    margin-top: 60px;
+    background-color: rgba(49, 126, 162, 0.962);
+    border-radius: 10%;
+}
+
+input[type="text"],
+input[type="text"]:focus {
+    color: black;
+    border: none;
+    max-width: 400px;
+}
+
+.todos li {
+    background: rgb(240, 189, 191);
+}
+
+.todos span {
+    color: #fff;
+}
+
+.todos i {
+    color: #fff;
+}
+
+.delete {
+    cursor: pointer;
+}
+
+.filtered {
+    display: none !important;
+}
+
+.clr {
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: #fff;
+}
+
+.btn1 {
+    color: #fff;
+    background: rgb(225, 175, 82);
+    margin-top: 20px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn1:hover {
+    background: rgb(240, 189, 191);
+}
+
