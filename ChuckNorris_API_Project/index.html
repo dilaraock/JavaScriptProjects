@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuck Norris Joke Generator</title>
+
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: #efefef;
+        }
+
+        .jokes-container {
+            padding: 25px;
+            box-shadow: 0 5px 12px rgba(0, 0, 0, 0.4);
+            background: #fff;
+            color: #333;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container text-center">
+        <img src="/ChuckNorris_API_Project/png_chuck_norris_54794.png" alt="" width="200px">
+        <div class="jokes-container mb-4">
+            <p id="jokes"></p>
+            <small class="text-muted">If you don't laugh, Chuck will know and he will found you..</small>
+        </div>
+        <button class="btn btn-danger btn-lg" onclick="getJokes()">Generate</button>
+    </div>
+    <script src="/ChuckNorris_API_Project/app.js"></script>
+</body>
+</html>
