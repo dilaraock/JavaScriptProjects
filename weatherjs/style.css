@@ -1,0 +1,21 @@
+body {
+    background: black !important;
+}
+
+.background-card {
+    background: rgba(42, 41, 41, 0.362);
+    box-shadow: 10px 10px 30px -7px rgba(242,237,242,0.6);
+}
+
+.bg {
+    background: rgba(20, 20, 20, 0.844)!important ;
+    color: #fff;
+}
+
+.border-top {
+    border-top: 1px solid #fff;
+}
+
+.box-border {
+    border: 1px solid #fff;
+}
